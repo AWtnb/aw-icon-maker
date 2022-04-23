@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AW</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20style%3D%22dominant-baseline%3Acentral%3Btext-anchor%3Amiddle%3Bfont-size%3A90px%3B%22%3E%26%23x1f3a8%3B%3C/text%3E%3C/svg%3E">
+    </head>
+    <body>
+
+        <div class="ui">
+            <input type="button" value="background" onclick="setColor('#aw')" class="changeButton">
+            <input type="button" value="line" onclick="setColor('.line')" class="changeButton">
+            <input type="button" value="accent" onclick="setColor('.accent')" class="changeButton">
+        </div>
+
+        <div id="container">
+            <div id="aw">
+
+                <div class="line top-100" style="left: 60px;"></div>
+                <div class="line top-100" style="left: 80px;"></div>
+                <div class="line top-100" style="left: 100px;"></div>
+                <div class="line top-100" style="left: 120px;"></div>
+                <div class="line top-100" style="left: 160px;"></div>
+                <div class="line top-100" style="left: 240px;"></div>
+
+                <div class="line top-120" style="left: 60px;"></div>
+                <div class="accent top-120" style="left: 80px;"></div>
+                <div class="accent top-120" style="left: 100px;"></div>
+                <div class="line top-120" style="left: 120px;"></div>
+                <div class="line top-120" style="left: 160px;"></div>
+                <div class="line top-120" style="left: 200px;"></div>
+                <div class="line top-120" style="left: 240px;"></div>
+
+                <div class="line top-140" style="left: 60px;"></div>
+                <div class="accent top-140" style="left: 80px;"></div>
+                <div class="accent top-140" style="left: 100px;"></div>
+                <div class="line top-140" style="left: 120px;"></div>
+                <div class="line top-140" style="left: 160px;"></div>
+                <div class="line top-140" style="left: 200px;"></div>
+                <div class="line top-140" style="left: 240px;"></div>
+
+                <div class="line top-160" style="left: 60px;"></div>
+                <div class="line top-160" style="left: 80px;"></div>
+                <div class="line top-160" style="left: 100px;"></div>
+                <div class="line top-160" style="left: 120px;"></div>
+                <div class="line top-160" style="left: 160px;"></div>
+                <div class="line top-160" style="left: 200px;"></div>
+                <div class="line top-160" style="left: 240px;"></div>
+
+                <div class="line top-180" style="left: 60px;"></div>
+                <div class="line top-180" style="left: 120px;"></div>
+                <div class="line top-180" style="left: 160px;"></div>
+                <div class="line top-180" style="left: 200px;"></div>
+                <div class="line top-180" style="left: 240px;"></div>
+
+                <div class="line top-200" style="left: 60px;"></div>
+                <div class="line top-200" style="left: 120px;"></div>
+                <div class="line top-200" style="left: 160px;"></div>
+                <div class="line top-200" style="left: 200px;"></div>
+                <div class="line top-200" style="left: 240px;"></div>
+
+                <div class="line top-220" style="left: 60px;"></div>
+                <div class="line top-220" style="left: 120px;"></div>
+                <div class="line top-220" style="left: 160px;"></div>
+                <div class="line top-220" style="left: 180px;"></div>
+                <div class="line top-220" style="left: 200px;"></div>
+                <div class="line top-220" style="left: 220px;"></div>
+                <div class="line top-220" style="left: 240px;"></div>
+
+            </div>
+        </div>
+
+        <div class="ui">
+            <input type="button" value="save" onclick="convertAsImg()" class="changeButton">
+            <select id="size">
+                <option value="1">320px</option>
+                <option value="2">640px</option>
+                <option value="3">960px</option>
+                <option value="4">1280px</option>
+            </select>
+        </div>
+
+        <div id="converter">
+            <img id="output">
+        </div>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</html>

@@ -1,0 +1,44 @@
+
+body {
+  margin: 20px;
+}
+
+.ui {
+  margin: 10px 0;
+}
+
+#converter {
+  border: 1px dashed #666;
+  width: 320px;
+  height: 320px;
+}
+
+#aw {
+  background-color: #ccc;
+  height: 320px;
+  width: 320px;
+  position: relative;
+}
+.line, .accent {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.accent {
+  background: #f00e6c;
+}
+.line {
+  background: #333333;
+}
+
+#output {
+  max-width: 100%;
+}
+
+.top-100 {top: 100px;}
+.top-120 {top: 120px;}
+.top-140 {top: 140px;}
+.top-160 {top: 160px;}
+.top-180 {top: 180px;}
+.top-200 {top: 200px;}
+.top-220 {top: 220px;}
